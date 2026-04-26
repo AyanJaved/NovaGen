@@ -13,7 +13,7 @@ A supervised machine learning project developed for NovaGen Research Labs to cla
 ```
 NovaGen/
 ├── novagen_dataset.csv              # Dataset
-├── novagen_health_classification.py # Main ML pipeline
+├── novaGen.ipynb # Main ML pipeline
 ├── eda_overview.png                 # Exploratory data analysis charts
 ├── model_comparison.png             # Model performance comparison
 └── best_model_analysis.png          # Feature importance and confusion matrix
@@ -77,7 +77,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ## Usage
 
 ```bash
-python novagen_health_classification.py
+python novaGen.ipynb
 ```
 
 Ensure `novagen_dataset.csv` is in the same directory before running.
